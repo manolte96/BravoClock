@@ -91,14 +91,14 @@ function Stopwatch() {
   				<div class="column">
 					
 				  <h4>Input athlete name here</h4>
-					<input type="text" maxlength="15"></input>
-					<h4>Times will display below</h4>
+					<input type="text" maxlength="20"></input>
+					<h4>This athlete is attacking first</h4>
 					{redEntries.map(entry => (<p>{entry}</p>))}
  				 </div>
   <div class="column">
     <h4>Input athlete name here</h4>
-	<input type="text" maxlength="15"></input>
-	<h4>Times will display below</h4>
+	<input type="text" maxlength="20"></input>
+	<h4>This athlete is attacking second</h4>
 	{blueEntries.map(entry => (<p>{entry}</p>))}
   </div>
 </div>
